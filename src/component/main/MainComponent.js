@@ -1,14 +1,12 @@
 import TopNav from "../nav/TopNav";
+import MainBodyComponent from "./MainBodyComponent";
 import './Maincoponent.css'
-import TopMaincomponent from "./TopMainComponent/TopMainComponent";
-import MiddleMainComponent from "./MiddleMainComponent/MiddleMainComponent";
+
 const MainComponent = () => {
     return ( 
         <div>
             <TopNav/>
-            <TopMaincomponent/>
-            <MiddleMainComponent/>
-
+            <MainBodyComponent/>
         </div>
      );
 }

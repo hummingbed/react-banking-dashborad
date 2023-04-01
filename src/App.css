@@ -29,8 +29,16 @@
 .font-twentyOne {
     font-size: 21.2062px;
 }
-  
 
+@media only screen and (max-width: 767px) {
+    .small-screen{
+        background-color: red;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+  
+/* 767 */
 /* body {
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
