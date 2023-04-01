@@ -9,10 +9,10 @@ const VisaCard = () => {
                 </div>
 
                 <div className="row text-light">
-                    <p className="col-sm-7 font-ten pt-1">1200 01452 54215
+                    <div className="col-9 font-ten pt-1">1200 01452 54215
                         <br /> <span className="font-eight pt-1">08/23</span>
-                    </p>
-                    <p className="col fw-bolder font-sixteen text-end text-uppercase">Visa</p>
+                    </div>
+                    <div className="px-1 col-2 fw-bolder font-sixteen text-uppercase">Visa</div>
                 </div>
             </div>
 

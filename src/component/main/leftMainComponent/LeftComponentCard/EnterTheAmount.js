@@ -13,10 +13,10 @@ const EnterTheAmount = () => {
                 </div>
 
                 <div className='d-flex gap-2'>
-                    <div className='col-9'>
+                    <div className='col-8'>
                         <input type="email" class="form-control font-twentyOne" placeholder={amount} />
                     </div>
-                    <div className='col-3 mt-2'>
+                    <div className='col-4 text-end px-1 mt-2'>
                         <img src={usaIcon} alt="usaIcon" className='col-6 image-fluid' style={{ width: '15px', height: '15px' }} />
                         <img src={franceIcon} alt="franceIcon" className='col-6 image-fluid' style={{ width: '15px', height: '15px' }} />
                     </div>

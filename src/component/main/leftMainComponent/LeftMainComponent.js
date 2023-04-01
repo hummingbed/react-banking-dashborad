@@ -8,20 +8,20 @@ const LeftMainComponent = () => {
     return (
         <div className="row small-screen py-3">
             {/* <div className="mx-auto col-md-12"> */}
-            <div className="col-md-3 col-lg-12 col-sm-10">
+            <div className="col-md-4 col-lg-12 col-sm-10">
                 <VisaCard />
             </div>
-            <div className="col-md-3 col-lg-12 col-sm-10">
+            <div className="col-md-4 col-lg-12 col-sm-10">
                 <SendMoney />
             </div>
-            <div className="col-md-3 col-lg-12 col-sm-10">
+            <div className="col-md-4 col-lg-12 col-sm-10">
                 <EnterTheAmount />
             </div>
-            <div className="col-md-3 col-lg-12 col-sm-10">
+            <div className="col-md-4 col-lg-12 col-sm-10">
                 <HeyesSendMoney />
             </div>
 
-            <div className="col-md-3 col-lg-12 col-sm-10">
+            <div className="col-md-8 col-lg-12 col-sm-10">
                 <QuickTransfer />
                 <QuickTransfer />
             </div>
