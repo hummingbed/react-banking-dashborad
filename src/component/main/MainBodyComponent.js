@@ -1,7 +1,7 @@
 import LeftMainComponent from "./leftMainComponent/LeftMainComponent";
 const MainBodyComponent = () => {
     return (
-        <div class="container  px-2" >
+        <div class="container-fluid px-4" >
             <div class="row">
                 <div class="col-lg-2 col-md-12 px-2 border">
                     <LeftMainComponent/>
