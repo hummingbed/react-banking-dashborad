@@ -6,7 +6,7 @@ import QuickTransfer from "./LeftComponentCard/QuickTransfer";
 
 const LeftMainComponent = () => {
     return (
-        <div className="row small-screen py-2">
+        <div className="row small-screen py-1">
             <div className="col-md-4 col-lg-12 col-sm-10">
                 <VisaCard />
             </div>
