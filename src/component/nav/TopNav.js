@@ -6,7 +6,7 @@ const TopNav = () => {
         <div >
             <nav class="navbar navbar-expand-lg py-2">
                 <div class="container-fluid">
-                    <a class="navbar-brand font-seventeen fw-bolder" href="#ello">My Card</a>
+                    <a class="navbar-brand font-seventeen px-3 fw-bolder" href="#ello">Dashboard</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>

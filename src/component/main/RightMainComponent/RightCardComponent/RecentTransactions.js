@@ -32,7 +32,7 @@ const RecentTransactions = () => {
                 <div class="row p-4">
                     <div class="col">
                         <div class="d-flex gap-3">
-                            <img src={Ellipse_one} className="image-fluid d-none d-md-block" alt="Ellipse_one" style={{width: '29.25px', height: '29.25px'}}/>
+                            <img src={Ellipse_one} className="image-fluid d-none d-md-block" alt="Ellipse_one" style={{ width: '29.25px', height: '29.25px' }} />
                             <div class="font-ten mt-2">Sent to anitonia</div>
                         </div>
                     </div>
