@@ -68,7 +68,7 @@ const RecentContact = () => {
                     <div className="col-12 pt-3">
                         <div className="row">
                             <div className="col-3">
-                                <img src={Dakota} className="image-fluid" alt="GroupPartyThree" />
+                                <img src={Dakota} className="image-fluid" alt="Dakota" />
                             </div>
                             <div className="col-7">
                                 <div className="font-eleven">Dakota Milk</div>
