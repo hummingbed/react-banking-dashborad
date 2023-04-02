@@ -3,7 +3,7 @@ import clothes from '../../../../Assets/images/clothes.svg'
 
 const QuickTransfer = () => {
     return (
-        <div className="my-2  border">
+        <div className="my-2  border rounded">
             <div className="row rounded g-3 py-2 ">
                 <p className="font-eleven  px-3">Quick Transfer</p>
                 <div className="col-lg-12 col-md-4 px-3 font-ten">
