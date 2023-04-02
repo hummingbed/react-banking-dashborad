@@ -1,5 +1,6 @@
 import ChartComponent from "./charts/ChartComponent";
 import RecentContact from "./RightCardComponent/RecentContact";
+import RecentTransactions from "./RightCardComponent/RecentTransactions";
 const RightMainComponent = () => {
     return (
         <div className="row ">
@@ -14,7 +15,7 @@ const RightMainComponent = () => {
                 </div>
             </div>
             <div className="col">
-
+                <RecentTransactions />
             </div>
 
         </div>

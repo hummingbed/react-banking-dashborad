@@ -82,7 +82,6 @@ const RecentContact = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

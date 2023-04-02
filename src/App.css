@@ -35,6 +35,15 @@
         padding-right: 40px;
     }
 }
+.success{
+    color: #61BB84; 
+    background: #EBFFF3;
+}
+
+.danger{
+    color: #FFAA90;
+    background: #FFF1ED;
+}
 
 /* @media only screen and (max-width: 767px) {
     .chart-small-screen{
