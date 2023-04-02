@@ -56,44 +56,46 @@ const ChartComponent = () => {
 
     return (
         <div>
-            <div className="row">
+            <div className="row overflow-auto " style={{ width: '675px' }}>
                 <div className="col">
                     <p className="font-sixteen">Money Flow</p>
                 </div>
 
                 <div className="col text-end font-ten">
-                    <i class="fa fa-line-chart text-muted mx-3" aria-hidden="true"></i>
-                    <i class="fa fa-signal bg-primary px-1 py-1 rounded text-white" aria-hidden="true"></i>
+                    <i className="fa fa-line-chart text-muted mx-3" aria-hidden="true"></i>
+                    <i className="fa fa-signal bg-primary px-1 py-1 rounded text-white" aria-hidden="true"></i>
                 </div>
             </div>
 
-            <div className="row font-ten">
+            <div className="row font-ten" style={{ width: '675px' }}>
                 <div className="col">
                     <div className="d-flex gap-3">
-                        <i class="fa fa-line-chart text-white p-1 rounded-circle bg-primary me-1" aria-hidden="true"></i>savings
-                        <i class="fa fa-line-chart text-primary p-1" aria-hidden="true"></i> <span>+6.79 %</span>
+                        <i className="fa fa-line-chart text-white p-1 rounded-circle bg-primary me-1" aria-hidden="true"></i>savings
+                        <i className="fa fa-line-chart text-primary p-1" aria-hidden="true"></i> <span>+6.79 %</span>
                     </div>
                 </div>
 
-                <div className="col text-end">
-                    <div className="border rounded-pill col-3 offset-md-9">
-                        
+                <div className="col">
+                    <div className="row justify-content-end">
+                        <div className="border rounded-pill border col-3 ">
                             <span>week</span>
                             <span type="button" className="text-muted dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"></span>
-                        
-                        <ul class="dropdown-menu">
-                            <li><a className="dropdown-item" href="#hello">Action</a></li>
-                            <li><a className="dropdown-item" href="#hello">Another action</a></li>
-                            <li><a className="dropdown-item" href="#hello">Something else here</a></li>
-                            <li><hr className="dropdown-divider" /></li>
-                            <li><a className="dropdown-item" href="#hello">Separated link</a></li>
-                        </ul>
+
+                            <ul class="dropdown-menu">
+                                <li><a className="dropdown-item" href="#hello">Action</a></li>
+                                <li><a className="dropdown-item" href="#hello">Another action</a></li>
+                                <li><a className="dropdown-item" href="#hello">Something else here</a></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item" href="#hello">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
             <LineChart
-                width={610}
+                width={689}
                 height={250}
                 data={data}
                 syncId="anyId"

@@ -2,7 +2,6 @@
     font-size: 8.775px;
 }
 
-
 .font-ten {
     font-size: 10.2375px;
 }
@@ -36,6 +35,13 @@
         padding-right: 40px;
     }
 }
+
+/* @media only screen and (max-width: 767px) {
+    .chart-small-screen{
+        padding-left: 30px;
+        padding-right: 127px;
+    }
+} */
   
 /* 767 */
 /* body {
